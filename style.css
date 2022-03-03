@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background: #F7F9FB;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    padding: 20px 60px;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+    height: 84%;
+    gap: 10px;
+}
+
+.azul {
+    color: #0275B1;
+}
+
+.footer-nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0 70px;
+    margin-top: 16px;
+}
+
+.footer-nav ul {
+    height: 100%;
+}
+
+.footer-nav li > a:hover {
+    text-decoration: underline;
+}
+
+footer div ul {
+    list-style: none;
+}
+
+footer div ul li > a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #181818;
+    line-height: 34px;
+}
+
+
+.buttons-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 138px;
+    padding-bottom: 14px;
+}
+
+.buttons-footer li {
+    margin: 6px 0;
+    border: 1px solid #0275B1;
+    padding: 0 90px 0 12px;
+    border-radius: 4px;
+}
+
+.buttons-footer li > a {
+    font-size: 14px;
+}
+
+.settings a {
+    color: #0275B1;
+}
+
+.settings a > img {
+    position: absolute;
+    top: 136px;
+    right: 450px;
+    width: 20px;
+}
+
+.questions {
+    background-color:#0275B1;
+}
+
+.questions a {
+    color: white;
+}
+
+.questions a > img {
+    position: absolute;
+    top: 88px;
+    right: 450px;
+    width: 20px;
+}
+
+.language {
+    height: 168px;
+}
+
+.language select {
+    padding: 0 8px;
+    width: 260px;
+    height: 30px;
+    border: 1px solid #F4F4F4;
+    border-radius: 4px;
+    margin-top: 26px;
+}
