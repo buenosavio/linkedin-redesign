@@ -1,7 +1,6 @@
 * {
-margin: 0px;
-padding: 0px;
-
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -14,6 +13,8 @@ body {
     height: 200vh;
     background-color: #E5E5E5;
 }
+
+/* HEADER */
 
 header {
     display: grid;
@@ -109,4 +110,346 @@ header > div {
 .menu-right:hover {
     cursor: pointer;
     transform: scale(1.05);
+}
+
+.container {
+    display: flex;
+    justify-content: center;    
+}
+
+main {
+    width: 86%;
+    margin-left: 7.1%;
+    
+}
+
+aside {
+    width: 25%;
+    margin-right: 7.1%;
+    margin-left: 3%;
+}
+
+.section1-profile {
+    background-image: url(./img/cover-photo.jpg);
+    height: 15%;
+    width: 100%;
+    background-repeat:repeat-x;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1-profile > div >  ul {
+    display: flex;
+    padding: 15px;
+}
+
+.section1-profile > div > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 4px;
+    max-width: 100%;
+    height: 20px;
+    padding: 4px 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.section1-profile > div > ul > li:hover {
+    cursor: pointer;
+}
+
+.section2-profile {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.name-location-profile {
+    display: flex;
+    justify-content: space-between;
+}
+.name-icon-profile{
+    display: flex;
+}
+
+.buttons-profile{
+    display: flex;
+}
+
+.buttons-profile li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0275B1;
+    margin-left: 10px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: 170px;
+}
+
+.contact-info-btn {
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+}
+
+.contact-info-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.connections-btn {
+    background-color: white;
+}
+.connections-btn a {
+    text-decoration: none;
+    color: #0275B1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background: #F7F9FB;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    padding: 20px 60px;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+    height: 84%;
+    gap: 10px;
+}
+
+.azul {
+    color: #0275B1;
+}
+
+.footer-nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0 70px;
+    margin-top: 16px;
+}
+
+.footer-nav ul {
+    height: 100%;
+}
+
+.footer-nav li > a:hover {
+    text-decoration: underline;
+}
+
+footer div ul {
+    list-style: none;
+}
+
+footer div ul li > a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #181818;
+    line-height: 34px;
+}
+
+
+.buttons-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 138px;
+    padding-bottom: 14px;
+}
+
+.buttons-footer li {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+    border: 1px solid #0275B1;
+    padding: 0 14px;
+    border-radius: 4px;
+    width: 160px;
+}
+
+.buttons-footer li > a {
+    font-size: 14px;
+}
+
+.buttons-footer li > img {
+    width: 20px;
+}
+
+.settings a {
+    color: #0275B1;
+    text-decoration: none;
+}
+
+.questions {
+    background-color:#0275B1;
+}
+
+.questions a {
+    color: white;
+    text-decoration: none;
+}
+
+.language {
+    height: 168px;
+}
+
+.language select {
+    padding: 0 8px;
+    width: 260px;
+    height: 30px;
+    border: 1px solid #F4F4F4;
+    border-radius: 4px;
+    margin-top: 26px;
 }
