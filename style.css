@@ -251,6 +251,27 @@ aside {
     text-align: center;
 }
 
+/* terceira section - projects */
+
+.projects {
+    background-color: white;
+    padding: 15px;
+}
+.cards-projects {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.cards-projects div p {
+    font-weight:370;
+    padding: 8px 0px;
+}
+
+.cards-projects div h5 {
+    padding: 8px 0px 0px 0px;
+}
 
 
 
