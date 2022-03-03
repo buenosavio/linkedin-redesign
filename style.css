@@ -301,6 +301,16 @@ aside {
 
 
 
+/* section da experience */
+
+.experience-item {
+    display: flex;
+    background-color: red;
+}
+
+.experience-item > div:nth-child(1) {
+    
+}
 
 
 
@@ -317,8 +327,7 @@ aside {
 
 
 
-
-
+/* about   */
 .profile-about {
     margin: 26px 0;
 }
