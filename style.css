@@ -248,43 +248,7 @@ aside {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ABOUT */
 
 .profile-about {
     margin: 26px 0;
@@ -360,6 +324,7 @@ aside {
     font-size: 12px;
     line-height: 11px;
     margin-top: 10px;
+    text-transform: uppercase;
 }
 
 .desc-about > a:hover {
@@ -419,6 +384,111 @@ aside {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SKILLS */
+.skills {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 197px;
+    padding: 20px 0 20px 30px;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
+
+.users-skills {
+    display: flex;
+}
+
+.users-skills div {
+    border: 1px solid #F4F4F4;
+    border-radius: 4px;
+    width: 208px;
+    height: 42px;
+    padding: 14px 20px 20px 20px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.users-skills div > p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.skills > a {
+    text-decoration: none;
+    color: #0275B1;
+    font-size: 12px;
+}
+
+.skills > a:hover {
+    text-decoration: underline;
+}
 
 
 
