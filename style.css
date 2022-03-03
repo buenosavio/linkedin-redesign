@@ -247,87 +247,8 @@ aside {
     text-align: center;
 }
 
-/* terceira section - projects */
+/* ABOUT */
 
-.projects {
-    background-color: white;
-    padding: 10px 10px 10px 30px;
-}
-
-.projects > a {
-    color: #0275B1;
-    font-size: 12px;
-    line-height: 11px;
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-.projects > a:hover {
-    text-decoration: underline;
-}
-
-.cards-projects {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0px;
-    width: 100%;
-}
-
-.cards-projects div p {
-    font-weight:370;
-    padding: 8px 0px;
-}
-
-.cards-projects div h5 {
-    padding: 8px 0px 0px 0px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* section da experience */
-
-.experience-item {
-    display: flex;
-    background-color: red;
-}
-
-.experience-item > div:nth-child(1) {
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* about   */
 .profile-about {
     margin: 26px 0;
 }
@@ -402,11 +323,171 @@ aside {
     font-size: 12px;
     line-height: 11px;
     margin-top: 10px;
+    text-transform: uppercase;
 }
 
 .desc-about > a:hover {
     text-decoration: underline;
 }
+
+/* terceira section - projects */
+
+.projects {
+    background-color: white;
+    padding: 10px 10px 10px 30px;
+}
+
+.projects > a {
+    color: #0275B1;
+    font-size: 12px;
+    line-height: 11px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.projects > a:hover {
+    text-decoration: underline;
+}
+
+.cards-projects {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.cards-projects div p {
+    font-weight:370;
+    padding: 8px 0px;
+}
+
+.cards-projects div h5 {
+    padding: 8px 0px 0px 0px;
+}
+
+/* SKILLS */
+.skills {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 197px;
+    padding: 20px 0 20px 30px;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
+
+.users-skills {
+    display: flex;
+}
+
+.users-skills div {
+    border: 1px solid #F4F4F4;
+    border-radius: 4px;
+    width: 208px;
+    height: 42px;
+    padding: 14px 20px 20px 20px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.users-skills div > p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.skills > a {
+    text-decoration: none;
+    color: #0275B1;
+    font-size: 12px;
+}
+
+.skills > a:hover {
+    text-decoration: underline;
+}
+
+
+/* section da experience */
+
+.experience-item {
+    display: flex;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
