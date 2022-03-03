@@ -8,10 +8,12 @@ body {
 }
 
 .container {
+    display: flex;
+    justify-content: center;
     max-width: 1400px;
     margin: 0px auto;
     height: 200vh;
-    background-color: #E5E5E5;
+    background-color: #F1F4F8;
 }
 
 /* HEADER */
@@ -24,8 +26,7 @@ header {
 }
 
 header > div {
-    /* border-right: 2px solid #F4F4F4; */
-    border-right: 2px solid green;
+    border-right: 2px solid #F4F4F4;
     height: 100%;
 }
 
@@ -113,11 +114,6 @@ header > div {
     transform: scale(1.05);
 }
 
-.container {
-    display: flex;
-    justify-content: center;    
-}
-
 main {
     width: 86%;
     margin-left: 7.1%;
@@ -142,7 +138,7 @@ aside {
 
 .section1-profile > div >  ul {
     display: flex;
-    padding: 15px;
+    padding: 15px 30px;
 }
 
 .section1-profile > div > ul > li {
@@ -176,7 +172,7 @@ aside {
     position: relative;
     top: -40px;
     padding-right: 0px;
-    padding: 10px 10px 10px 15px;
+    padding: 10px 10px 10px 30px;
 }
 
 .profile-photo > img {
@@ -255,8 +251,21 @@ aside {
 
 .projects {
     background-color: white;
-    padding: 15px;
+    padding: 10px 10px 10px 30px;
 }
+
+.projects > a {
+    color: #0275B1;
+    font-size: 12px;
+    line-height: 11px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.projects > a:hover {
+    text-decoration: underline;
+}
+
 .cards-projects {
     display: flex;
     justify-content: space-between;
@@ -310,35 +319,85 @@ aside {
 
 
 
+.profile-about {
+    margin: 26px 0;
+}
+
+.profile-about a {
+    text-decoration: none;
+}
+
+.buttons-about {
+    display: flex;
+}
+
+.buttons-about > li {
+    display: flex;
+    border: 1px solid #E7E7E7;
+    background-color: #FFFFFF;
+    width: 220px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.buttons-about a {
+    color: #181818;
+}
+
+.buttons-about > li:hover {
+    color: white;
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+    transform: scaleY(1.3);
+    border-radius: 4px;
+}
+
+.button-profile {
+    border-radius: 4px 0 0 0;
+}
+
+.button-article {
+    border-radius: 0 4px 0 0;
+}
+
+.container-about {
+    background: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+}
 
 
+.cabecalho-about {
+    background: linear-gradient(180deg, rgba(241, 244, 248, 0.8) 0%, rgba(241, 244, 248, 0) 100%);
+    height: 50px;
+    border-top: 1px solid rgb(230, 229, 229);
+}
 
+.desc-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 120px;
+    padding: 0 10px 26px 30px;
+}
 
+.desc-about > p {
+    color: #181818;
+    line-height: 24px;
+    font-size: 14px;
+}
 
+.desc-about > a {
+    color: #0275B1;
+    font-size: 12px;
+    line-height: 11px;
+    margin-top: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.desc-about > a:hover {
+    text-decoration: underline;
+}
 
 
 
