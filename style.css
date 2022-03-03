@@ -12,7 +12,7 @@ body {
     justify-content: center;
     max-width: 1400px;
     margin: 0px auto;
-    height: 300vh;
+    height: 330vh;
     background-color: #F1F4F8;
 }
 
@@ -334,7 +334,7 @@ aside {
 
 .projects {
     background-color: white;
-    padding: 25px 30px 10px 30px;
+    padding: 25px 30px 25px 30px;
     margin: 26px 0;
 }
 
@@ -415,14 +415,16 @@ aside {
 
             /* primeira experiencia */
 .experience {
-    padding: 25px 10px 10px 30px;
+    padding: 25px 10px 25px 30px;
     margin: 26px 0;
     background-color: white;
 }
 
 .experience-item {
     padding-top: 25px;
+    padding-bottom: 15px;
     display: flex;
+    border-bottom: 0.5px solid #F4F4F4;
 }
 
 .experience-item div:nth-child(1) {
@@ -471,6 +473,37 @@ aside {
     padding-bottom: 20px;
 }
 
+/* education section  */
+
+.education {
+    padding: 25px 10px 25px 30px;
+    margin: 26px 0;
+    background-color: white;
+}
+
+.edu-item {
+    padding-top: 25px;
+    display: flex;
+}
+
+.edu-item div:nth-child(1) {
+    display: flex;
+    align-items:flex-start ;
+    justify-content: center;    
+}
+
+.edu-item div:nth-child(2) {
+    padding-left: 15px;
+}
+
+.edu-item div:nth-child(2) > p {
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.edu-item div:nth-child(2) > h5 {
+    padding-bottom: 20px;
+}
 
 
 
