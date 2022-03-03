@@ -12,7 +12,7 @@ body {
     justify-content: center;
     max-width: 1400px;
     margin: 0px auto;
-    height: 200vh;
+    height: 300vh;
     background-color: #F1F4F8;
 }
 
@@ -334,7 +334,8 @@ aside {
 
 .projects {
     background-color: white;
-    padding: 10px 10px 10px 30px;
+    padding: 25px 30px 10px 30px;
+    margin: 26px 0;
 }
 
 .projects > a {
@@ -358,6 +359,7 @@ aside {
 
 .cards-projects div p {
     font-weight:370;
+    font-size: 12px;
     padding: 8px 0px;
 }
 
@@ -411,12 +413,63 @@ aside {
 
 /* section da experience */
 
+            /* primeira experiencia */
+.experience {
+    padding: 25px 10px 10px 30px;
+    margin: 26px 0;
+    background-color: white;
+}
+
 .experience-item {
+    padding-top: 25px;
     display: flex;
-    background-color: red;
+}
+
+.experience-item div:nth-child(1) {
+    display: flex;
+    align-items:flex-start ;
+    justify-content: center;    
+}
+
+.experience-item div:nth-child(2) {
+    padding-left: 15px;
+}
+
+.experience-item div:nth-child(2) > p {
+    padding-bottom: 10px;
+    font-size: 12px;
 }
 
 
+.experience-item div:nth-child(2) > h5 {
+    padding-bottom: 20px;
+}
+
+            /* segunda experiencia */
+.experience-item2 {
+    padding-top: 25px;
+    display: flex;
+}
+
+.experience-item2 div:nth-child(1) {
+    display: flex;
+    align-items:flex-start ;
+    justify-content: center;    
+}
+
+.experience-item2 div:nth-child(2) {
+    padding-left: 15px;
+}
+
+.experience-item2 div:nth-child(2) > p {
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+
+.experience-item2 div:nth-child(2) > h5 {
+    padding-bottom: 20px;
+}
 
 
 
