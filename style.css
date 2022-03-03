@@ -23,7 +23,8 @@ header {
 }
 
 header > div {
-    border-right: 2px solid #F4F4F4;
+    /* border-right: 2px solid #F4F4F4; */
+    border-right: 2px solid green;
     height: 100%;
 }
 
@@ -109,4 +110,3 @@ header > div {
     cursor: pointer;
     transform: scale(1.05);
 }
-
