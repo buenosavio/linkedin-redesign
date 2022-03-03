@@ -24,7 +24,8 @@ header {
 }
 
 header > div {
-    border-right: 2px solid #F4F4F4;
+    /* border-right: 2px solid #F4F4F4; */
+    border-right: 2px solid green;
     height: 100%;
 }
 
@@ -111,54 +112,102 @@ header > div {
     transform: scale(1.05);
 }
 
+.container {
+    display: flex;
+    justify-content: center;    
+}
 
+main {
+    width: 86%;
+    margin-left: 7.1%;
+    
+}
 
+aside {
+    width: 25%;
+    margin-right: 7.1%;
+    margin-left: 3%;
+}
 
+.section1-profile {
+    background-image: url(./img/cover-photo.jpg);
+    height: 15%;
+    width: 100%;
+    background-repeat:repeat-x;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
 
+.section1-profile > div >  ul {
+    display: flex;
+    padding: 15px;
+}
 
+.section1-profile > div > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 4px;
+    max-width: 100%;
+    height: 20px;
+    padding: 4px 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
 
+.section1-profile > div > ul > li:hover {
+    cursor: pointer;
+}
 
+.section2-profile {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 20px;
+}
 
+.name-location-profile {
+    display: flex;
+    justify-content: space-between;
+}
+.name-icon-profile{
+    display: flex;
+}
 
+.buttons-profile{
+    display: flex;
+}
 
+.buttons-profile li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0275B1;
+    margin-left: 10px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: 170px;
+}
 
+.contact-info-btn {
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+}
 
+.contact-info-btn a {
+    text-decoration: none;
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.connections-btn {
+    background-color: white;
+}
+.connections-btn a {
+    text-decoration: none;
+    color: #0275B1;
+}
 
 
 
@@ -369,6 +418,7 @@ footer div ul li > a {
 
 .settings a {
     color: #0275B1;
+    text-decoration: none;
 }
 
 .questions {
@@ -377,6 +427,7 @@ footer div ul li > a {
 
 .questions a {
     color: white;
+    text-decoration: none;
 }
 
 .language {
