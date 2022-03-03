@@ -107,6 +107,7 @@ header > div {
     transition: 800ms all;
     margin-right: 30px;
 }
+
 .menu-right:hover {
     cursor: pointer;
     transform: scale(1.05);
@@ -120,7 +121,6 @@ header > div {
 main {
     width: 86%;
     margin-left: 7.1%;
-    
 }
 
 aside {
@@ -129,9 +129,10 @@ aside {
     margin-left: 3%;
 }
 
+    /* Primeira section - imagem de capa */
 .section1-profile {
     background-image: url(./img/cover-photo.jpg);
-    height: 15%;
+    height: 11%;
     width: 100%;
     background-repeat:repeat-x;
     margin-top: 2%;
@@ -162,23 +163,58 @@ aside {
     cursor: pointer;
 }
 
+/* Segunda section - foto perfil e informacoes pessoais */
+
 .section2-profile {
     display: flex;
     background-color: white;
     justify-content: space-between;
-    padding: 20px;
+}
+
+.profile-photo {
+    width: 30%;
+    position: relative;
+    top: -40px;
+    padding-right: 0px;
+    padding: 10px 10px 10px 15px;
+}
+
+.profile-photo > img {
+    width: 90%;
+    max-width: 100%;
+    border-radius: 150px;
+    border: 6px solid white;
 }
 
 .name-location-profile {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 260px;
+    padding: 20px 10px 10px 10px;
     justify-content: space-between;
+    align-items: center;
 }
+
+.name-location-profile div p {
+    max-width: 100%;
+}
+
 .name-icon-profile{
     display: flex;
 }
 
+.name-icon-profile > img {
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+.section2-profile > div > div:nth-child(2) {
+    padding: 10px;
+}
+
 .buttons-profile{
     display: flex;
+    justify-content: flex-start;
+    padding: 10px 0px 10px 10px;
 }
 
 .buttons-profile li {
@@ -186,10 +222,14 @@ aside {
     justify-content: center;
     align-items: center;
     border: 1px solid #0275B1;
-    margin-left: 10px;
     border-radius: 4px;
-    padding: 10px 20px;
-    width: 170px;
+    padding: 10px 10px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.buttons-profile li:nth-child(2) {
+    margin-left: 20px;
 }
 
 .contact-info-btn {
@@ -204,9 +244,11 @@ aside {
 .connections-btn {
     background-color: white;
 }
+
 .connections-btn a {
     text-decoration: none;
     color: #0275B1;
+    text-align: center;
 }
 
 
