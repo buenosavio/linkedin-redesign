@@ -375,6 +375,7 @@ aside {
     padding: 20px 0 20px 30px;
     box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
     border-radius: 4px;
+    margin: 28px 0;
 }
 
 .users-skills {
@@ -421,6 +422,120 @@ aside {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dashboard {
+    background: #FFFFFF;
+    height: 308px;
+    margin-top: 18px;
+    padding: 24px 28px;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+
+}
+
+.dashboard-top {
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 14px;
+}
+
+.dashboard-top > p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+}
+
+.dashboard-top p > a {
+    text-decoration: underline;
+}
+
+.dashboard-top p > a:hover {
+    text-decoration: none;
+}
+
+.dashboard-desc > div {
+    margin: 10px 0;
+}
+
+.dashboard-desc div > p {
+    font-size: 52px;
+}
+
+.dashboard-desc div > span {
+    font-size: 14px;
+}
 
 
 
