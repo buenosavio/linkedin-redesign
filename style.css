@@ -781,7 +781,7 @@ aside {
 }
 
 .like-comment > li {
-    padding: 10px;
+    padding: 15px;
     border-right: 1px solid #F4F4F4;
 }
 
@@ -797,8 +797,7 @@ aside {
 }
 
 .share-feed > li {
-    padding: 10px;
-    /* border-right: 1px solid red; */
+    padding: 15px;
     border-left: 1px solid #F4F4F4;
 }
 
