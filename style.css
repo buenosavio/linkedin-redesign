@@ -12,7 +12,7 @@ body {
     justify-content: center;
     max-width: 1400px;
     margin: 0px auto;
-    height: 330vh;
+    height: 270vh;
     background-color: #F1F4F8;
 }
 
@@ -128,7 +128,7 @@ aside {
     /* Primeira section - imagem de capa */
 .section1-profile {
     background-image: url(./img/cover-photo.jpg);
-    height: 11%;
+    height: 8%;
     width: 100%;
     background-repeat:repeat-x;
     margin-top: 2%;
@@ -549,6 +549,50 @@ aside {
 .dashboard-desc div > span {
     font-size: 14px;
 }
+
+/* segunda section do aside - visitors */
+
+.visitors-asd {
+    background-color: #FCFDFD;
+    padding: 24px 28px;
+    margin-top: 26px;
+}
+
+.head-visitor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #F4F4F4;
+    margin-bottom: 8px;
+}
+
+.head-visitor > a {
+    color:#0275B1;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.head-visitor > a:hover {
+    text-decoration: underline;
+}
+
+.visitor-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.visitor-item div p {
+    font-size: 12px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.visitor-item div h5 {
+    padding-left: 10px;
+}
+
 
 
 
