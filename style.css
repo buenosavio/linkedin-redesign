@@ -12,7 +12,7 @@ body {
     justify-content: center;
     max-width: 1400px;
     margin: 0px auto;
-    height: 304vh;
+    height: 298vh;
     background-color: #F1F4F8;
 }
 
@@ -601,102 +601,114 @@ aside {
     padding-left: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* COURSES */
+.courses {
+    display: flex;
+    flex-direction: column;
+    background: #FCFDFD;
+    margin: 10px 0;
+    padding: 24px 28px;
+    border-radius: 4px;
+}
+
+.courses > p {
+    font-size: 12px;
+    font-weight: 600;    
+    margin-bottom: 12px;
+}
+
+.courses > div {
+    border-top: 1px solid #F4F4F4;
+    padding-top: 8px;
+}
+
+.courses-videos {
+    display: flex;
+    gap: 12px;
+    margin: 10px 0;
+}
+
+.courses-videos div > p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+
+.courses > a {
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.courses > a:hover {
+    text-decoration: underline;
+}
+
+
+/* ----------------------------FEED------------------------------ */
+
+/* NEW POST */
+
+.new-post {
+    background: #FFFFFF;
+    margin-top: 34px;
+    padding: 20px 26px;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+}
+
+.top-post {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F4F4F4;
+    margin-bottom: 20px;
+}
+
+.top-post > p {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.text-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-post > input {
+    border: none;
+    font-size: 18px;
+    width: 100%;
+}
+
+.text-post > input:focus {
+    outline: none;
+}
+
+.text-post > input::placeholder {
+    color: rgba(24, 24, 24, 0.2);;
+}
+
+.text-post ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.text-post ul {
+    display: flex;
+    align-items: center;
+}
+
+.send > img {
+    padding: 8px 8px 6px 6px;
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+    border-radius: 4px;        
+}
+
+.text-post ul > li:hover {
+    transform: scale(1.1);
+}
 
 /* pagina de feed - primeiro post  */
 
@@ -904,58 +916,6 @@ aside {
 
 
 
-
-
-
-
-
-
-
-
-/* COURSES */
-
-.courses {
-    display: flex;
-    flex-direction: column;
-    background: #FCFDFD;
-    margin: 10px 0;
-    padding: 24px 28px;
-    border-radius: 4px;
-}
-
-.courses > p {
-    font-size: 12px;
-    font-weight: 600;    
-    margin-bottom: 12px;
-}
-
-.courses > div {
-    border-top: 1px solid #F4F4F4;
-    padding-top: 8px;
-}
-
-.courses-videos {
-    display: flex;
-    gap: 20px;
-    margin: 10px 0;
-}
-
-.courses-videos div > p {
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: bold;
-}
-
-
-.courses > a {
-    font-size: 12px;
-    text-decoration: none;
-    margin-top: 12px;
-}
-
-.courses > a:hover {
-    text-decoration: underline;
-}
 
 
 
