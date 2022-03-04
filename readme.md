@@ -11,4 +11,5 @@ Adicionado Courses
 
 Feed: {
     Adicionado New Post
+    Adicionado First Post
 }

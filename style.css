@@ -12,7 +12,7 @@ body {
     justify-content: center;
     max-width: 1400px;
     margin: 0px auto;
-    height: 304vh;
+    height: 298vh;
     background-color: #F1F4F8;
 }
 
@@ -128,7 +128,7 @@ aside {
     /* Primeira section - imagem de capa */
 .section1-profile {
     background-image: url(./img/cover-photo.jpg);
-    height: 11%;
+    height: 8%;
     width: 100%;
     background-repeat:repeat-x;
     margin-top: 2%;
@@ -527,11 +527,13 @@ aside {
 .dashboard-top > p {
     display: flex;
     justify-content: space-between;
-    font-size: 11px;
+    font-weight: 600;
+    font-size: 12px;
 }
 
 .dashboard-top p > a {
     text-decoration: underline;
+    font-weight: 400;
 }
 
 .dashboard-top p > a:hover {
@@ -550,102 +552,53 @@ aside {
     font-size: 14px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* segunda section do aside - visitors */
+
+.visitors-asd {
+    background-color: #FCFDFD;
+    padding: 24px 28px;
+    margin-top: 26px;
+}
+
+.head-visitor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #F4F4F4;
+    margin-bottom: 8px;
+}
+
+.head-visitor > a {
+    color:#0275B1;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.head-visitor > h5 {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.head-visitor > a:hover {
+    text-decoration: underline;
+}
+
+.visitor-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.visitor-item div p {
+    font-size: 12px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.visitor-item div h5 {
+    padding-left: 10px;
+}
 
 /* COURSES */
 
@@ -654,12 +607,13 @@ aside {
     flex-direction: column;
     background: #FCFDFD;
     margin: 10px 0;
-    padding: 20px;
+    padding: 24px 28px;
     border-radius: 4px;
 }
 
 .courses > p {
     font-size: 12px;
+    font-weight: 600;    
     margin-bottom: 12px;
 }
 
@@ -670,12 +624,12 @@ aside {
 
 .courses-videos {
     display: flex;
-    gap: 20px;
+    gap: 12px;
     margin: 10px 0;
 }
 
 .courses-videos div > p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 18px;
     font-weight: bold;
 }
@@ -693,6 +647,8 @@ aside {
 
 
 /* ----------------------------FEED------------------------------ */
+
+/* NEW POST */
 
 .new-post {
     background: #FFFFFF;
@@ -793,7 +749,130 @@ aside {
 
 
 
+/* pagina de feed - primeiro post  */
 
+.first-post {
+    background-color: white;
+    margin-top: 26px;
+    border-radius: 4px;
+}
+.superior-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.superior-menu > div > p {
+    color: #0275B1;
+    font-size: 12px;
+}
+
+.superior-menu > div > img {
+    width: 75%;
+}
+
+.text-normal {
+    color: black;
+}
+
+.perfil-feed-post {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.perfil-feed-post > div h5 {
+    font-size: 16px;
+}
+
+.perfil-feed-post > div p {
+    font-size: 12px;
+}
+
+.perfil-feed-post > div:nth-child(2) {
+    margin-left: 15px;
+}
+
+.text-feed-post {
+    padding: 0px 20px 10px 20px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.text-feed-post > p {
+    background: -webkit-linear-gradient(#333,#eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+}
+
+.text-feed-post > a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #0275B1;
+}
+
+.interaction-feed-post div nav ul li{
+    display: inline;
+}
+
+.interaction-feed-post {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 0px;
+}
+
+.like-comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin-left: 10px;
+}
+
+.like-comment > li {
+    padding: 15px;
+    border-right: 1px solid #F4F4F4;
+}
+
+.like-comment > li > a {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.share-feed{
+    display: flex;
+    align-items: center;
+}
+
+.share-feed > li {
+    padding: 15px;
+    border-left: 1px solid #F4F4F4;
+}
+
+.share-feed > li > a {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.interaction-feed-post span {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    margin-left: 5px;
+}
+
+.interaction-feed-post a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
 
 
 
