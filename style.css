@@ -697,6 +697,158 @@ aside {
 
 
 
+/* pagina de feed - primeiro post  */
+
+.first-post {
+    background-color: white;
+    margin-top: 26px;
+    border-radius: 4px;
+}
+.superior-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.superior-menu > div > p {
+    color: #0275B1;
+    font-size: 12px;
+}
+
+.superior-menu > div > img {
+    width: 75%;
+}
+
+.text-normal {
+    color: black;
+}
+
+.perfil-feed-post {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.perfil-feed-post > div h5 {
+    font-size: 16px;
+}
+
+.perfil-feed-post > div p {
+    font-size: 12px;
+}
+
+.perfil-feed-post > div:nth-child(2) {
+    margin-left: 15px;
+}
+
+.text-feed-post {
+    padding: 0px 20px 10px 20px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.text-feed-post > p {
+    background: -webkit-linear-gradient(#333,#eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+}
+
+.text-feed-post > a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #0275B1;
+}
+
+.interaction-feed-post div nav ul li{
+    display: inline;
+}
+
+.interaction-feed-post {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 0px;
+}
+
+.like-comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin-left: 10px;
+}
+
+.like-comment > li {
+    padding: 10px;
+    border-right: 1px solid #F4F4F4;
+}
+
+.like-comment > li > a {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.share-feed{
+    display: flex;
+    align-items: center;
+}
+
+.share-feed > li {
+    padding: 10px;
+    /* border-right: 1px solid red; */
+    border-left: 1px solid #F4F4F4;
+}
+
+.share-feed > li > a {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.interaction-feed-post span {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    margin-left: 5px;
+}
+
+.interaction-feed-post a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* COURSES */
 
