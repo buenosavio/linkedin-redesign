@@ -710,6 +710,42 @@ aside {
     transform: scale(1.1);
 }
 
+/* SORT BY */
+
+.sort-by {
+    display: flex;
+    padding-top: 26px;
+}
+
+.sort-by div {
+    border-top: 1px solid #E7E7E7;
+    width: 40%;
+    margin-top: 8px;
+}
+
+.sort-by > p {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin: 0 22px;
+    font-weight: bold;
+}
+
+.sort-by p > span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 4px;
+}
+
+.sort-by p span > img:hover {
+    transform: scale(1.4);
+}
+
+.sort-by p > span:hover {
+    text-decoration: underline;
+}
+
 /* pagina de feed - primeiro post  */
 
 .first-post {
@@ -773,6 +809,10 @@ aside {
     font-size: 12px;
     font-weight: 600;
     color: #0275B1;
+}
+
+.text-feed-post > a:hover {
+    text-decoration: underline;
 }
 
 .interaction-feed-post div nav ul li{
@@ -845,6 +885,30 @@ aside {
 
 .photo-feed-post > p {
     margin-bottom: 20px;
+}
+
+.like:hover {
+    transform: scale(1.2);
+}
+
+.comment:hover {
+    transform: scale(1.2);
+}
+
+.share:hover {
+    transform: scale(1.2);
+}
+
+.download-file:hover {
+    transform: scale(1.2);
+}
+
+.file-icon:hover {
+    transform: scale(1.2);
+}
+
+.more-horizontal-icon:hover {
+    transform: scale(1.2);
 }
 
 /*terceiro post*/
