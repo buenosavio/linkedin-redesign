@@ -12,4 +12,7 @@ Adicionado Courses
 Feed: {
     Adicionado New Post
     Adicionado First Post
+    Adicionado Second Post
+    Adicionado Third Post
+    Adicionado Aside [Profile, Button, Groups, Hashtags, Articles ]
 }
