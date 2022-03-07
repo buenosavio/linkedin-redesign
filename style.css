@@ -12,7 +12,8 @@ body {
     justify-content: center;
     max-width: 1400px;
     margin: 0px auto;
-    height: 296vh;
+    /* height: 296vh; */
+    height: 450vh;
     background-color: #F1F4F8;
 }
 
@@ -21,7 +22,8 @@ body {
     justify-content: center;
     max-width: 1400px;
     margin: 0px auto;
-    height: 278vh;
+    /* height: 278vh; */
+    height: 450vh;
     background-color: #F1F4F8;
 }
 
