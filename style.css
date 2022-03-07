@@ -53,6 +53,7 @@ header > div {
     display: flex;
     align-items: center;
 }
+
 .itens ul {
     display: flex;
     text-align: center;
@@ -1038,6 +1039,10 @@ aside {
     border: none;
 }
 
+.write-btn:hover {
+    transform: scale(1.2);
+}
+
 .groups {
     margin: 26px 0;
     background-color: #FCFDFD;
@@ -1101,42 +1106,6 @@ aside {
     padding: 8px;
     font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* FOOTER */
 
@@ -1213,6 +1182,10 @@ footer div ul li > a {
     padding: 0 14px;
     border-radius: 4px;
     width: 160px;
+}
+
+.buttons-footer li:hover {
+    transform: scale(1.2);
 }
 
 .buttons-footer li > a {
